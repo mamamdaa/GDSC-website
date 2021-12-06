@@ -1,0 +1,11 @@
+.team {
+  background-color: #84878b;
+  height: 70vh;
+  padding-top: 55px;
+  text-align: center;
+}
+
+.team p {
+  font-size: 15px;
+  color: #484a52;
+}

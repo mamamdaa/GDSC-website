@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.events {
+  padding-top: 60px;
+}
+.events-container {
+  flex-wrap: wrap;
+}
+.events-container .card {
+  overflow: hidden;
+  position: relative;
+  width: 60vh !important;
+  height: 70vh;
+}
+.events-container p {
+  font-size: 13px;
+}
+.events-container .btn {
+  font-size: 15px;
+}
+
+.border-bottom {
+  width: 89%;
+}
+.border-0 {
+  width: 89%;
+}
+.activity {
+  background-color: #f1f3f4;
+}
+
+.activity-container {
+  flex-wrap: wrap;
+}
+
+.activity-container .card {
+  overflow: hidden;
+  position: relative;
+  width: 60vh !important;
+}
+
+@media (max-width: 500px) {
+  .events-container .card {
+    overflow: hidden;
+    position: relative;
+    width: 60vh !important;
+    height: 62vh;
+  }
+}
+@media (max-width: 376px) {
+  .events-container .card {
+    overflow: hidden;
+    position: relative;
+    width: 60vh !important;
+    height: 57vh;
+  }
+}

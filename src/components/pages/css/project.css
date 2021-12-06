@@ -1,0 +1,250 @@
+.projects {
+  background-color: #84878b;
+  height: 70vh;
+  padding-top: 55px;
+  text-align: center;
+}
+
+.projects p {
+  font-size: 15px;
+  color: #484a52;
+}
+
+.projects-container {
+  flex-wrap: wrap;
+}
+.projects-container .card {
+  overflow: hidden;
+  position: relative;
+  width: 48% !important;
+  height: 65vh;
+}
+
+.project-boxes {
+  flex-wrap: wrap;
+}
+.project-boxes .project-box {
+  overflow: hidden;
+  position: relative;
+  height: 30vh;
+}
+
+@media (max-width: 1100px) {
+  .projects {
+    height: calc(55vh - 60px);
+  }
+  .projects-container .card {
+    font-size: 13px !important;
+  }
+  .sample-projects .card {
+    height: 57vh;
+  }
+  .project-boxes .project-box {
+    height: 14vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-boxes .project-box {
+    height: 14vh;
+  }
+  .projects p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 998px) {
+  .projects-container .boxes {
+    height: 40vh !important;
+  }
+
+  .project-boxes .project-box {
+    height: 15vh;
+    width: 20vh !important;
+  }
+}
+@media (max-width: 923px) {
+  .projects-container .card {
+    width: 80% !important;
+    height: 50vh;
+  }
+  .projects-container .boxes {
+    height: 40vh !important;
+  }
+
+  .project-boxes .project-box {
+    height: 15vh;
+    width: 20vh !important;
+  }
+}
+@media (max-width: 896px) {
+  .projects-container .card {
+    width: 80% !important;
+    height: 50vh;
+  }
+  .projects-container .boxes {
+    height: 40vh !important;
+  }
+
+  .project-boxes .project-box {
+    height: 15vh;
+    width: 20vh !important;
+  }
+  .content {
+    width: 70%;
+  }
+
+  .projects-container .card p {
+    font-size: 12px;
+  }
+
+  .projects-container .card .btn {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 840px) {
+  .projects-container .card {
+    height: 40vh !important;
+  }
+  .projects-container .boxes {
+    height: 40vh !important;
+  }
+
+  .project-boxes .project-box {
+    height: 15vh !important;
+    width: 20vh !important;
+  }
+}
+@media (max-width: 840px) {
+  .projects-container .card {
+    width: 90% !important;
+    height: 35vh;
+  }
+  .projects-container .boxes {
+    height: 35vh !important;
+  }
+  .project-boxes .project-box {
+    height: 12vh;
+    width: 20vh !important;
+  }
+}
+@media (max-width: 780px) {
+  .projects {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 754px) {
+  .projects-container .card {
+    height: 52vh !important;
+  }
+  .projects-container .boxes {
+    height: 40vh !important;
+  }
+
+  .project-boxes .project-box {
+    height: 15vh !important;
+    width: 20vh !important;
+  }
+}
+@media (max-width: 670px) {
+  .project-boxes .project-box {
+    height: 13vh;
+    width: 20vh !important;
+  }
+}
+@media (max-width: 575px) {
+  .project-boxes .project-box {
+    height: 13vh;
+    width: 20vh !important;
+  }
+  .projects p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 475px) {
+  .content {
+    width: 80%;
+  }
+  .projects-container .card p {
+    font-size: 12px !important;
+  }
+  .projects-container .boxes {
+    height: 35vh !important;
+  }
+  .project-boxes .project-box {
+    height: 12vh;
+    width: 20vh !important;
+  }
+}
+
+@media (max-width: 410px) {
+  .projects-container .card {
+    width: 100% !important;
+    height: 65vh;
+  }
+  .projects-container .card h1 {
+    font-size: 25px;
+  }
+  .projects-container .card p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 415px) {
+  .projects p {
+    font-size: 12px;
+  }
+  .projects-container .card {
+    width: 100% !important;
+    height: 50vh;
+  }
+  .projects-container .card p {
+    font-size: 10px !important;
+  }
+
+  .project-boxes .project-box {
+    height: 9vh;
+    width: 15vh !important;
+  }
+}
+@media (max-width: 376px) {
+  .projects {
+    height: calc(45vh - 60px);
+  }
+  .projects-container .card {
+    width: 100% !important;
+    height: 50vh !important;
+  }
+  .projects-container .boxes {
+    height: 35vh !important;
+  }
+  .project-boxes .project-box {
+    height: 12vh !important;
+    width: 20vh !important;
+  }
+  .projects p {
+    font-size: 10px;
+  }
+
+  .project-boxes .project-box {
+    height: 9vh;
+    width: 15vh !important;
+  }
+}
+@media (max-width: 326px) {
+  .projects {
+    height: calc(55vh - 60px);
+  }
+  .projects-container .card {
+    width: 100% !important;
+    height: 73vh;
+  }
+  .projects p {
+    font-size: 10px;
+  }
+
+  .project-boxes .project-box {
+    height: 9vh;
+    width: 15vh !important;
+  }
+}

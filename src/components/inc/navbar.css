@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  line-height: 0;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  background-color: #bdc1c6;
+  width: 100% !important;
+}
+
+.gd {
+  margin-left: 2px;
+}
+
+.school {
+  font-size: 12px;
+  margin-left: 63px;
+}
+
+ul li a {
+  margin: 0 30px;
+}
+
+.register {
+  background: #4285f4;
+  border-radius: 10px;
+}
+
+.navbar .nav .nav-item a {
+  color: #84878b;
+}
+
+.navbar .nav .register a {
+  color: white;
+}
+
+.navbar .nav-brand:hover {
+  color: #84878b;
+}
+
+.navbar .nav .nav-item a:focus {
+  color: black;
+}
+
+.navbar .nav .nav-item .register:focus {
+  color: #84878b;
+}
+@media (max-width: 450px) {
+  .container-fluid {
+    padding: 0 !important;
+  }
+
+  button {
+    padding: 5px !important;
+  }
+
+  .logo {
+    font-size: 13px;
+  }
+
+  .school {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    font-size: 11px;
+  }
+
+  .school {
+    font-size: 10px;
+  }
+}

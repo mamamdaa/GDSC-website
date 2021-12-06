@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.first .container {
+  padding-top: 60px;
+  height: calc(100vh - 60px);
+}
+
+.first .card {
+  top: 5vh;
+  width: 50%;
+  border: none !important;
+}
+h2 {
+  font-size: 3.5rem !important;
+  color: #4285f4;
+}
+
+.first .btn {
+  width: 40%;
+}
+
+.wrapper-flex {
+  padding: 2vh;
+  flex-wrap: wrap;
+  background: #4285f4;
+}
+
+.wrapper-flex .container {
+  overflow: hidden;
+  color: white;
+  background: #4285f4;
+  position: relative;
+  width: 90vh;
+}
+.wrapper-flex .container h1 {
+  font-size: 50px;
+}
+.wrapper-flex .container p {
+  font-size: 13px;
+}
+.wrapper-flex .con1 img {
+  width: 100%;
+}
+.wrapper-flex .btn {
+  border: none;
+  font-weight: bold;
+  color: #4285f4;
+  background: white;
+}
+
+.wrapper-card {
+  flex-wrap: wrap;
+}
+
+.wrapper-card .container {
+  overflow: hidden;
+  position: relative;
+  width: 45vh;
+}
+.wrapper-card .card-img-top {
+  background: #84878b;
+  height: 25vh;
+}
+.wrapper-card .btn {
+  color: #4285f4;
+}
+
+.card-body h5 {
+  color: #4285f4;
+}
+
+.fourth {
+  background: #f1f3f4;
+}
+
+.wrapper-card2 {
+  flex-wrap: wrap;
+}
+
+.wrapper-card2 .card-img-top {
+  background: #84878b;
+  height: 35vh;
+}
+
+.wrapper-card2 .container {
+  overflow: hidden;
+  position: relative;
+  width: 62vh;
+}
+
+@media (max-width: 800px) {
+  .first .card {
+    width: 70%;
+  }
+  .contact img {
+    width: 50vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .first .container {
+    height: calc(70vh - 60px);
+  }
+  .first .card {
+    width: 100%;
+  }
+  .first .card h2 {
+    font-size: 30px !important;
+  }
+  .first .card p {
+    font-size: 12px;
+  }
+
+  .first .btn {
+    width: 25%;
+    font-size: 10px;
+  }
+
+  .wrapper-flex .container h1 {
+    font-size: 35px;
+  }
+  .wrapper-flex .container p {
+    font-size: 12px;
+  }
+
+  .wrapper-flex .btn {
+    width: 25%;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .first .container {
+    height: calc(70vh - 60px);
+  }
+  .first h2 {
+    font-size: 3rem !important;
+  }
+  .wrapper-flex .container p {
+    font-size: 13px;
+  }
+
+  .contact img {
+    width: 40vh;
+  }
+  .nav-options .container {
+    font-size: 10px;
+  }
+
+  .nav-options h4 {
+    font-size: 15px;
+  }
+}
