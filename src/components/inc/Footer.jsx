@@ -3,6 +3,7 @@ import "./footer.css";
 import { Link } from "react-router-dom";
 import logo from "./logo.svg";
 import loc from "../images/loc.png";
+import Logo from "../images/logo.png";
 import sample from "../images/sample.jpg";
 
 function Footer() {
@@ -39,38 +40,43 @@ function Footer() {
           <div class="card  mt-3">
             <form>
               <div class="mb-1 ">
-                <label class="form-label">
-                  <input
-                    class="form-control"
-                    placeholder="Name"
-                    type="text"
-                    name="name"
-                  />
-                </label>
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Name"
+                  aria-label="default input example"
+                />
               </div>
-              <div className="mb-1">
-                <label class="form-label">
-                  <input
-                    class="form-control"
-                    placeholder="Email"
-                    type="text"
-                    name="name"
-                  />
-                </label>
+              <div>
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label"
+                ></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Email"
+                />
               </div>
-              <div class="mb-1">
-                <label class=" message form-label">
-                  <textarea
-                    placeholder="Message"
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                  ></textarea>
-                </label>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label"
+                ></label>
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
               </div>
-              <a class="btn btn-light " href="#" role="button">
-                Submit
-              </a>
+              <div class="submit">
+                {" "}
+                <button type="submit" class="btn mb-3 fw-bold">
+                  SUBMIT
+                </button>
+              </div>
             </form>
           </div>
         </div>
@@ -237,10 +243,7 @@ function Footer() {
         <nav class="navbar">
           <div class="container-fluid border-top mb-2">
             <Link to="/" class=" footer-logo  nav-link">
-              <img src={logo} alt="Logo" />
-              <span class="footer-gd ">Google Developer Student Clubs</span>
-              <br />
-              <span class="footer-school ">University of San Agustin</span>
+              <img src={Logo} alt="Logo" />
             </Link>
 
             <div class="text-muted ">

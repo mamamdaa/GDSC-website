@@ -36,7 +36,7 @@ h2 {
   color: white;
   background: #4285f4;
   position: relative;
-  width: 90vh;
+  width: 80vh;
 }
 .wrapper-flex .container h1 {
   font-size: 50px;
@@ -94,6 +94,14 @@ h2 {
   width: 62vh;
 }
 
+@media (max-width: 800px) {
+  .first .card {
+    width: 70%;
+  }
+  .contact img {
+    width: 50vh;
+  }
+}
 @media (max-width: 800px) {
   .first .card {
     width: 70%;

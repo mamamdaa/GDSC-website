@@ -1,11 +1,74 @@
 .team {
   background-color: #84878b;
   height: 70vh;
-  padding-top: 55px;
+  padding-top: 100px;
   text-align: center;
 }
 
 .team p {
   font-size: 15px;
   color: #484a52;
+}
+
+.board-members .card {
+  background-color: #b6b6b6;
+}
+
+.board-members .container {
+  flex-wrap: wrap;
+}
+.board-members .card {
+  overflow: hidden;
+  position: relative;
+  width: 40vh !important;
+  height: 47vh;
+}
+
+.board-members .card h5 {
+  color: black;
+}
+
+.adviser .card {
+  background-color: #b6b6b6;
+}
+
+.adviser .container {
+  flex-wrap: wrap;
+}
+.adviser .card {
+  overflow: hidden;
+  position: relative;
+  width: 40vh !important;
+  height: 47vh;
+}
+
+.adviser .card h5 {
+  color: black;
+}
+
+.departments {
+  background-color: #e8e8e8;
+}
+
+.departments .title {
+  margin: auto;
+  width: 50%;
+}
+
+.departments .card {
+  background-color: #b6b6b6;
+}
+
+.departments .container {
+  flex-wrap: wrap;
+}
+.departments .card {
+  overflow: hidden;
+  position: relative;
+  width: 40vh !important;
+  height: 47vh;
+}
+
+.departments .card h5 {
+  color: black;
 }

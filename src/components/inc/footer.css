@@ -30,11 +30,13 @@
 .contact img {
   width: 60vh;
 }
-.contact .btn {
-  width: 68% !important;
+.contact .submit .btn {
+  background-color: white;
+  width: 100% !important;
   color: #4285f4;
   font-weight: bold;
 }
+
 .contact .message {
   width: 68% !important;
 }
@@ -75,16 +77,32 @@
   padding: 0;
 }
 .footer img {
-  width: 10vh;
-}
-.footer .footer-school {
-  font-size: 13px;
-  margin-left: 74px;
+  width: 50vh;
 }
 
 .footer .footer-logo:hover {
   color: #84878b;
 }
+
+@media (max-width: 1920px) {
+  .fifth .card {
+    width: 18vh !important;
+  }
+
+  .contact .message {
+    width: 44% !important;
+  }
+  .contact .btn {
+    width: 44% !important;
+  }
+  .nav-options .card {
+    width: 22vh !important;
+  }
+  .footer .footer-school {
+    margin-left: 110px !important;
+  }
+}
+
 @media (max-width: 1500px) {
   .nav-options .card {
     width: 13vh !important;
@@ -98,6 +116,10 @@
   .fifth .card {
     width: 20vh !important;
   }
+
+  .footer img {
+    width: 40vh;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -109,14 +131,14 @@
 
 @media (max-width: 1000px) {
   .footer img {
-    width: 8vh;
+    width: 30vh;
   }
   .footer .footer-gd {
     font-size: 15px;
   }
   .footer .footer-school {
     font-size: 10px;
-    margin-left: 45px;
+    margin-left: 86px !important;
   }
 
   .footer .text-muted {
@@ -149,6 +171,9 @@
   .nav-options .card {
     width: 20vh !important;
   }
+  .footer .text-muted {
+    font-size: 9px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -156,14 +181,14 @@
     width: 25vh;
   }
   .footer img {
-    width: 6vh;
+    width: 20vh;
   }
   .footer .footer-gd {
     font-size: 10px;
   }
   .footer .footer-school {
     font-size: 8px;
-    margin-left: 38px;
+    margin-left: 65px !important;
   }
 
   .footer .text-muted {
@@ -179,18 +204,18 @@
     width: 55vh;
   }
   .footer img {
-    width: 5vh;
+    width: 15vh;
   }
   .footer .footer-gd {
     font-size: 7.5px;
   }
   .footer .footer-school {
     font-size: 5.5px;
-    margin-left: 36px;
+    margin-left: 53px !important;
   }
 
   .footer .text-muted {
-    font-size: 5.5px;
+    font-size: 6px;
   }
   .nav-options .card {
     width: 15vh !important;
@@ -228,14 +253,14 @@
 
 @media (max-width: 400px) {
   .footer img {
-    width: 4vh;
+    width: 12vh;
   }
   .footer .footer-gd {
     font-size: 6.5px;
   }
   .footer .footer-school {
     font-size: 5px;
-    margin-left: 32px;
+    margin-left: 43px !important;
   }
 
   .footer .text-muted {

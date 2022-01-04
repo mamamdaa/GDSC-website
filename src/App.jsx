@@ -14,27 +14,15 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="options">
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/event">
-            <Event />
-          </Route>
-          <Route path="/project">
-            <Project />
-          </Route>
-          <Route path="/team">
-            <Team />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/event" component={Event} />
+        <Route path="/project" component={Project} />
+        <Route path="/team" component={Team} />
+      </Switch>
+      <Footer />
     </Router>
   );
 }
